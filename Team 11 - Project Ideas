@@ -1,0 +1,15 @@
+Idea#1. Find the Dish!
+        These days, it is common for people to post photos of a dish that they
+        love in a social media platform such as instagram. However, some of the
+        posts do not have information such as the name of the dish and
+        the restaurant.
+        We would like to solve this problem by building an ML model that could
+        identify the name of the dish from its picture.We plan to supplement
+        this feature by providing the list of nearby restaurants where this dish
+        or similar is available, and if possible, get the reviews for the dish
+        in each of these locations.
+
+
+Idea#2. Discovery of materials using ML                                                                                        	At present, we are witnessing an explosion of mavelous works that develop and 		apply machine learning to real-world problems. One such state of the art is 		material science with machine learning. An upgrowing field to discover and design 	new stable materials to overcome the expenses of traditional experiments and 		modelling that consume tremendous time and resources at hand.
+
+
