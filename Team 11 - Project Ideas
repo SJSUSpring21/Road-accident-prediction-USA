@@ -1,17 +1,13 @@
-Idea#1. Find the Dish!
-        These days, it is common for people to post photos of a dish that they
-        love in a social media platform such as instagram. However, some of the
-        posts do not have information such as the name of the dish and
-        the restaurant.
-        We would like to solve this problem by building an ML model that could
-        identify the name of the dish from its picture.We plan to supplement
-        this feature by providing the list of nearby restaurants where this dish
-        or similar is available, and if possible, get the reviews for the dish
-        in each of these locations.
+Idea#1. Machine Learning To Help Rural Households Access Electricity
+	This application, uses historical customer payment behavior data to predict which new applicants are likely to be a good fit for their
+	pay-as-you-go solar power systems program.
+	Customers that make three or fewer payments in their first 180 days have a 60% chance of having their system be repossessed.
+	The team built a model that could predict whether a potential customer is likely or unlikely to keep up with payments.
+	
 
 
 Idea#2. Discovery of materials using ML                                                                                        	
-	At present, we are witnessing an explosion of marvelous works that develop and 		
+	At present, we are witnessing an explosion of marvelous works that develop and 	
 	apply machine learning to real-world problems. One such state of the art is 		
 	material science with machine learning. An up-growing field to discover and design 		
 	new stable materials to overcome the expenses of traditional experiments and 		
