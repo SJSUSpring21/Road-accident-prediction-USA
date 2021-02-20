@@ -24,3 +24,36 @@ Idea#4. Live tracking of location and quality of food in real-time
 	the products in real-time.
 	We can work on this using blockchain technology. We can also try to meet the two 
 	endpoints that are the farmer and consumer which is similar to farmer connect.
+
+
+These ideas are based on further exploration of Idea#2. Also, we would like to implement based on these research papers. 
+
+Idea#5 Semi supervised ML classification of materials synthesis procedures
+
+Brief Intro: Digitizing large collections of scientific literature can enable new informatics approaches for scientific analysis and meta-analysis. 
+We can demonstrate a semi-supervised machine-learning method to classify inorganic materials synthesis procedures from written natural language.A machine-learning approach that 
+enables a scalable approach to unlock the large amount of inorganic materials synthesis information from the literature and to process it into a standardized, 
+machine-readable database.
+Dataset: Private. Available only on request. 
+Reference: https://www.nature.com/articles/s41524-019-0204-1
+
+#Idea 6 Overcoming data scarcity with transfer learning- applying latent data to experimental data
+
+Brief Into: This paper encourages on union of multiple datasets using transfer learning, where the information from one dataset is used to inform a model on another's. 
+More like, bridging sparse data while not harming the context/domain. 2 Case studies are used to show its implementation. we can try one of them. 
+Dataset: Available. Public. 
+Two datasets used: 
+a. Materials Project- Public dataset
+b. Strehlow and Cook: We have to look into whether its public or not. #Dataset available on https://citrination.com/datasets/1160/show_searchsearchMatchOption=fuzzyMatch
+
+Professor, let us know, if you have any clue about this dataset. 
+
+Reference: https://arxiv.org/abs/1711.05099
+
+Idea#7 Deep Learning the Chemistry of Materials from only elemental composition 
+
+Brief Intro: Implementation of a deep neural network model referred to as ElemNet, to automatically capture the physical and chemical interactions and similarities between 
+different elements using AI to predict materials properties with accuracy and speed. 
+Dataset: Public. OQMD dataset. 
+
+Reference: https://www.nature.com/articles/s41598-018-35934-y
