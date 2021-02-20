@@ -52,3 +52,10 @@ Idea#5. Machine Learning To Help Rural Households Access Electricity
 Idea#6. Identifying Food Bank Dependency Early
 	Build a machine learning model to predict which of The Welcome Centre’s clients are 
 	likely to become dependent on the food bank’s food and other packs
+	
+Idea#7 Auction:
+Based on the last couple of seasons performance we are going to find the weak links in the team and based on previous auctions data and the statistics of 
+players who are in auction pool we are goi ng to suggest the best combination of players (on basis of previous performances and auction dataset) 
+after whom the individual teams should go (in bidding)to make their team reach the best possible level. 
+This datasets maynot be limited to cricket itself we can also take football league dataset which is larger than our ipl 
+dataset and give the teams the list of players whom they should go after to reach the optimum level.
