@@ -2,11 +2,15 @@ Idea#1. Machine Learning To Help Rural Households Access Electricity
 	This application, uses historical customer payment behavior data to predict which new applicants are likely to be a good fit for their
 	pay-as-you-go solar power systems program.
 	Customers that make three or fewer payments in their first 180 days have a 60% chance of having their system be repossessed.
-	The team built a model that could predict whether a potential customer is likely or unlikely to keep up with payments.
+	The team built a model that could predict whether a potential customer is likely or unlikely to keep up with payments.]
+	
+Idea#2. Identifying Food Bank Dependency Early
+	Build a machine learning model to predict which of The Welcome Centre’s clients are 
+	likely to become dependent on the food bank’s food and other packs
 	
 
 
-Idea#2. Discovery of materials using ML                                                                                        	
+Idea#3. Discovery of materials using ML                                                                                        	
 	At present, we are witnessing an explosion of marvelous works that develop and 	
 	apply machine learning to real-world problems. One such state of the art is 		
 	material science with machine learning. An up-growing field to discover and design 		
@@ -14,7 +18,7 @@ Idea#2. Discovery of materials using ML
 	modelling that consume tremendous time and resources at hand.
 
 
-Idea#3. Live tracking of location and quality of food in real-time
+Idea#4. Live tracking of location and quality of food in real-time
 	In this application, we can know the estimated delivery time/precise 
 	location of the order and we could possibly know the level of quality of
 	the products in real-time.
