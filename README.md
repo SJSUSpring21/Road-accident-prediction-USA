@@ -1,4 +1,3 @@
-Factors affecting accident intensity : Road accident data analysis
 
 
 Abstract :
