@@ -8,6 +8,7 @@ other environmental stimuli on accident occurrence. (Add-on)The recently availab
 study the impact of COVID-19 on traffic behavior and accidents.
 
 Approach :
+Analyze the dataset to create dashboards to understand traffic distributions in cities.
 Planning to use the below classification algorithms from sklearn to predict the accident severity .
 1.Logistic Regression 
 2.Decision Tree
