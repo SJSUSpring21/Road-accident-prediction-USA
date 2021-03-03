@@ -15,8 +15,8 @@ Planning to use the below classification algorithms from sklearn to predict the 
 4.KNN (k- nearest neighbors)
 
 Persona :
-Can be useful for Traffic control authorities to find the most accident prone areas and take required actions.
-Can be helpful for travelers and drivers to choose safest routes
+1. Traffic control authorities to find the most accident prone areas and take required actions.
+2. Travelers and drivers to choose safest routes
 
 Dataset : 
 The dataset consists of traffic data captured by a variety of entities such as the US and State departments
