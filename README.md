@@ -29,3 +29,6 @@ Choose the model which produces the most accuracy, precision and recall.
 ### Dataset : 
 The dataset consists of traffic data captured by a variety of entities such as the US and State departments
 of transportation, law enforcement agencies, traffic cameras, and traffic sensors within the road-networks.
+
+
+![alt text](file:///Users/anaghasethuraman/Downloads/Untitled%20Diagram.pdf)
