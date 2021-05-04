@@ -2,7 +2,7 @@
 
 
 ### Abstract :
-In this project, we set out to solve the problem of Road Traffic Accident(RTA) in USA  by providing a tool to predict RTA risk so that users can make informed decision about their traveling route. We also did a detailed analysis of past data and visuals to gain a better understanding of RTA.This application would offer the severity of accident at given locations based on factors such as weather, time of day, etc. using the US Accidents dataset.We would offer drivers with a dashboard where they can look up the accident rate for a city,
+In this project, we set out to solve the problem of Road Traffic Accident(RTA) in USA  by providing a tool to predict accident risk so that users can make informed decision about their traveling route. We also did a detailed analysis of past data and visuals to gain a better understanding of RTA.This application would offer the severity of accident at given locations based on factors such as weather, time of day, etc. using the US Accidents dataset.We would offer drivers with a dashboard where they can look up the accident rate for a city,
 by leveraging this historical dataset. Traffic control authorities can also benefit from the hotspot accident locations
 featured in the application dashboard.
 
