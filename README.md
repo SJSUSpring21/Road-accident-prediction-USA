@@ -32,7 +32,7 @@ Choose the model which produces the most accuracy, precision and recall.
 In Our application we have finalized to use Random Forest by comparing with other models mentioned.
 
 ### Persona :
-1. Travelers and drivers to choose safest routes
+1. Travelers and drivers to find the accident severity of a place.
 2. Traffic control authorities to find the most accident prone areas and take required actions.
 
 
