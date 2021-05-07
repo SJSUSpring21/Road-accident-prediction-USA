@@ -41,4 +41,4 @@ The dataset consists of traffic data captured by a variety of entities such as t
 of transportation, law enforcement agencies, traffic cameras, and traffic sensors within the road-networks.
 
 ### Architectural Diagram
-![Architectural.Diagram.pdf](https://github.com/SJSUSpring21/Road-accident-data-analysis-severity-prediction/files/6444639/Architectural.Diagram.pdf)
+![image](https://user-images.githubusercontent.com/78836467/117515599-93158080-af4b-11eb-8f78-6fc01252805d.png)
