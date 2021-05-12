@@ -1,4 +1,4 @@
-# Road accident data analysis and Severity Prediction
+# Road accident data analysis Prediction
 
 
 ### Abstract :
@@ -29,7 +29,7 @@ Use the below classification algorithms to predict the probability of accidents.
 
 Choose the model which produces the most accuracy, precision and recall.
 
-In Our application we have finalized to use Random Forest by comparing with other models mentioned.
+In Our application we have finalized to use Linear Regression by comparing with other models mentioned.
 
 ### Persona :
 1. Travelers and drivers to find the accident severity of a place.
