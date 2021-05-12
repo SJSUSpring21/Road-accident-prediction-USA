@@ -1,23 +1,5 @@
 # Road Accident Prediction and Data Analysis
 
-### Package Installation
-
-- Clone this repository 
-
-` $ git clone https://github.com/SJSUSpring21/Road-accident-prediction-USA`
-
-- Navigate to Directory
-
-` $ cd US_prediction`
-
-- To run the application
-
-`$ python3 run.py`
-
-- Application on local-host
-
-`http://127.0.0.1:5000/ `
-
 ### Abstract :
 
 In this project, we set out to solve the problem of Road Traffic Accident(RTA) in USA  by providing a tool to predict accident risk so that users can make informed decision about their traveling route. We also did a detailed analysis of past data and visuals to gain a better understanding of RTA.This application would offer the severity of accident at given locations based on factors such as weather, time of day, etc. using the US Accidents dataset.We would offer drivers with a dashboard where they can look up the accident rate for a city,
