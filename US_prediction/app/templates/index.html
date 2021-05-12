@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Exploration</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+			<link rel="icon" type="image/png" href={{ url_for('static', filename='images/crash.png') }}>
+		<link rel="stylesheet" href="static/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Introduction</a></li>
+							<li><a href="#one">Dashboard</a></li>
+							<li><a href="#two">Maps</a></li>
+							<li><a href="#three">About</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Prediction of Road Traffic Accidents</h1>
+							<h3>Road Traffic Accidents (RTAs) are a major cause of death globally. Every year, millions of individuals perish on the roads.</h3>
+							<p>In this project, we built a machine learning model that predicts the probability of RTAs in different locations in US.</br>
+								We hope that this project can contribute to the improvement of road safety in United States.</br><i>
+									
+							</i></p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">Learn more</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+
+							<div class="content">
+								<div class="inner">
+									<h2>Problem Statement</h2>
+									<p>This subsection provides the motivation behind our effort to build a RTA prediction model.</p>
+									<ul class="actions">
+										<li><a href="{{ url_for('main.exploration') }}#one" class="button">Explore</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+
+							<div class="content">
+								<div class="inner">
+									<h2>Datasets and Research Methodology</h2>
+									<p>This subsection elaborates our data collection process and the steps we undertook to build the RTA prediction model.</p>
+									<ul class="actions">
+										<!--<li><a href="exploration.html#two" class="button">Explore</a></li> -->
+										<li><a href="{{ url_for('main.exploration') }}#two" class="button">Explore</a></li>
+
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+
+							<div class="content">
+								<div class="inner">
+									<h2>Exploration and Observations</h2>
+									<p>This subsection condenses the interesting observations and takeaways we had upon exploring the dataset.</p>
+									<ul class="actions">
+										<li><a href="{{ url_for('main.exploration') }}#three" class="button">Explore</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						
+					</section>
+
+				<!-- Two -->
+				<section id="two" class="wrapper style3 spotlights">
+					<div class="inner" style="height:700px;">
+						<h2 style="margin-top:50px;margin-left:0px;">Prediction Page</h2>
+						<p style="margin-left:0px;">Using the best performing algorithm, we built an interactive RTA prediction visualization. Click the button below to visit this predict page.</p>
+
+						<ul class="actions">
+							<li style="margin-left:0px;"><a href="{{ url_for('main.interaction') }}"class="button">Predict</a></li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Three -->
+				<section id="three" class="wrapper style1 fade-up">
+					<div class="inner">
+						<h2>About</h2>
+						<p>This aim of this project is to visualize the road traffic accidents happend in the US.</p>
+
+				</section>
+
+
+			</div>
+
+
+
+		<!-- Scripts -->
+
+			<script src="static/js/jquery.min.js"></script>
+			<script src="static/js/jquery.scrollex.min.js"></script>
+			<script src="static/js/jquery.scrolly.min.js"></script>
+			<script src="static/js/browser.min.js"></script>
+			<script src="static/js/breakpoints.min.js"></script>
+			<script src="static/js/util.js"></script>
+			<script src="static/js/main.js"></script>
+
+	</body>
+</html>

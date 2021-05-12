@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Exploration</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+			<link rel="icon" type="image/jpg" href={{ url_for('static', filename='images/RTA.jpg') }}>
+		<link rel="stylesheet" href="static/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="static/css/noscript.css" /></noscript>
+	</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+
+		<nav>
+			<ul>
+				<li><a href="{{ url_for('main.home') }}">Home</a></li>
+				<li><a href="{{ url_for('main.exploration') }}" class="active">Dashboard</a></li>
+
+			
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+
+		<section id="one" class="wrapper">
+			<div class="inner">
+				<h1 class="major">Intro:</h1>
+				<span class="image fit"><img src="../static/images/RTA.jpg" style="height:750px;width:1050px;border: 2px steelblue solid;padding: 
+				15px;margin-left:auto;margin-right:auto" alt=""/></span>
+				<p>Road Traffic Accidents (RTAs) are a major cause of death globally, leading to  around 1.25 million deaths annually. Transport authorities
+					 worldwide have been striving to implement strategies to minimize RTAs by introducing various safety regulations. However, RTA reduction
+					 has proven to be an elusive goal as these measures have hitherto failed to make a considerable dent in the frequency of RTA.</p>
+
+				<p>This failure partially stems from the difficulty in predicting when and where RTAs may occur. Although difficult, such prediction is
+					not impossible. RTAs do not occur in purely stochastic manner; several publications affirm that the probability of RTAs is influenced 
+					by multitude of measurable factors. These factors include obvious ones such as driving speed, traffic condition, road structure and 
+					weather to less obvious ones such as national mood and lunar cycle.</p>
+
+				 <p>In an effort to reduce RTA frequency, various municipal and national governments in the USA have made available rich datasets of RTAs 
+					 and their associated factors. We have explored these datasets and discovered factors that correlate well with RTA probability. Using 
+					 this observation, we have created a machine learning model that predicts with high accuracy as to when and where RTAs are likely to 
+					 occur.  </p>
+
+			</div>
+		</section>
+
+		<section id="two" class="wrapper">
+			<div class="inner">
+				<h1 class="major">Datasets and Research Methodology:</h1>
+				<p>The main dataset we used for this project is the one retrieved from <a href="https://www.kaggle.com/sobhanmoosavi/us-accd from February 2016 tidents">Kaggle.</a>
+					This is a countrywide car accident dataset, which covers 49 states of the USA. The accident data are collected Dec 2020, 
+					using multiple APIs that provide streaming traffic incident (or event) data. These APIs broadcast traffic data captured by a variety 
+					of entities, such as the US and state departments of transportation, law enforcement agencies, traffic cameras, and traffic sensors within
+					the road-networks. Currently, there are about 3 million accident records in this dataset. Check here to learn more about this dataset.</p>
+
+
+				<p> US-Accidents can be used for numerous applications such as real-time car accident prediction, studying car accidents hotspot locations,
+					casualty analysis and extracting cause and effect rules to predict car accidents, and studying the impact of precipitation or other 
+					environmental stimuli on accident occurrence. The most recent release of the dataset can also be useful to study the impact of COVID-19
+					on traffic behavior and accidents. </p>
+
+
+
+			</div>
+		</section>
+
+		<!-- Main -->
+		<section id="three" class="wrapper">
+			<div class="inner">
+				<h1 class="major">Exploration and Observations</h1>
+				<p style="clear:both">Upon exploring our cleaned dataset, we made several interesting observations. These observations are elaborated below.</p>
+
+				<iframe src="{{ url_for('main.days') }}" name="iframe_a" style="height:550px;width:850px;border: 2px steelblue solid;padding: 
+				15px;margin: 15px;float:left"></iframe>
+
+				<p style="clear:left"><b><i>What day is road traffic accidents most likely to occur? </b></i></p>
+				<p>The plot shows that highest number of accidents occured Wednesday and lowest number are reported on Sunday.</p>
+
+
+				<p style="clear:both"> </p>
+
+				<iframe src="{{ url_for('main.weather_info') }}" name="iframe_b" style="height:550px;width:850px;border: 2px steelblue solid;padding: 
+				15px;margin: 15px;float:left"></iframe>
+				<p style="clear:right;margin-left: 15px"><b><i>On which weather, most of the accidents happened? </b></i>
+
+				<p>In the dataset, almost 128 differnent weather conditions are reported. From the plot, it is shown clear that most of the accidents 
+					occured when the weather was fair and second highest when the weather was clear. </p>
+
+				<p style="clear:both"> </p>
+
+				<iframe src="{{ url_for('main.city') }}" name="iframe_c" style="height:550px;width:850px;border: 2px steelblue solid;padding: 
+				15px;margin-right:15px;float:right"></iframe>
+
+
+					<p style="clear:left"><b><i>What are the top 10 states with the highest number of accidents?</b></i></p>
+					<p> The bar graph on the right shows the distribution of accidents based on the top 10 states.
+						It shows that most accidents happened in Housten State with almost 110k cases.</p>
+
+				<p style="clear:both"> </p>
+
+
+
+			</div>
+		</section>
+
+
+	</div>
+
+
+
+	<!-- Scripts -->
+	<script src="static/js/jquery.min.js"></script>
+	<script src="static/js/jquery.scrollex.min.js"></script>
+	<script src="static/js/jquery.scrolly.min.js"></script>
+	<script src="static/js/browser.min.js"></script>
+	<script src="static/js/breakpoints.min.js"></script>
+	<script src="static/js/util.js"></script>
+	<script src="static/js/main.js"></script>
+
+</body>
+
+</html>
