@@ -15,12 +15,12 @@ googlekey = Config["googlekey"]
 
 
 script_path = os.path.dirname(os.path.abspath(__file__ + "/../"))
-accident_dataset = pd.read_csv(script_path + "/data/accident_data.csv")
+accident_dataset = pd.read_csv(script_path + "/app/data/accident_data.csv")
 
 
 # Load  model nad model columns
-model = joblib.load(script_path + "/model/model.pkl")
-model_columns = joblib.load(script_path + "/model/model_columns.pkl")
+model = joblib.load(script_path + "/app/model/model.pkl")
+model_columns = joblib.load(script_path + "/app/model/model_columns.pkl")
 
 
 def call_google(origin, destination, googlekey):
